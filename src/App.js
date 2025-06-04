@@ -10,6 +10,7 @@ import ListaAutor from './paginas/ListaAutor';
 import ListaCategoria from './paginas/ListaCategoria';
 import ListaEditora from './paginas/ListaEditora';
 import ListaLivro from './paginas/ListaLivro';
+import ListaAcervo from './paginas/ListaAcervo';
 
 function App() {
   return (
@@ -35,6 +36,8 @@ function App() {
             <Route path='/listalivro' element={<ListaLivro />} />
             <Route path='/cadastrolivro' element={<FormLivro />} />
             <Route path='/cadastrolivro/:id' element={<FormLivro />} />
+
+            <Route path='/listaacervo' element={<ListaAcervo />} />
 
             <Route path='*' element={<Home />} />
           </Routes>
