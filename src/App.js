@@ -4,10 +4,12 @@ import Menu from './componentes/Menu';
 import FormAutor from './paginas/FormAutor';
 import FormCategoria from './paginas/FormCategoria';
 import FormEditora from './paginas/FormEditora';
+import FormLivro from './paginas/FormLivro';
 import Home from './paginas/Home';
 import ListaAutor from './paginas/ListaAutor';
 import ListaCategoria from './paginas/ListaCategoria';
 import ListaEditora from './paginas/ListaEditora';
+import ListaLivro from './paginas/ListaLivro';
 
 function App() {
   return (
