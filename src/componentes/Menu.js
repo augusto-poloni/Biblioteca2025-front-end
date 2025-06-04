@@ -61,13 +61,13 @@ export default function Menu() {
                                             Livro
                                         </a>
                                     </li>
-                                    <li>
-                                        <hr className="dropdown-divider" />
+                                                                        <li>
+                                        <a className="dropdown-item" href="/listaacervo">
+                                            Acervo
+                                        </a>
                                     </li>
                                     <li>
-                                        <a className="dropdown-item" href="#">
-                                            Something else here
-                                        </a>
+                                        <hr className="dropdown-divider" />
                                     </li>
                                 </ul>
                             </li>
